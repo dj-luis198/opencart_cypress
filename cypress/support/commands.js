@@ -23,3 +23,27 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('gClick', (locator) => { 
+    cy.get(locator).click();
+ })
+
+ Cypress.Commands.add('cClick', (locator) => { 
+    cy.contains(locator).click();
+ })
+
+ Cypress.Commands.add('lastBreadcrumb', () => { 
+    cy.get('ul[class="breadcrumb"]').children('li').last();
+ })
+
+ Cypress.Commands.add('gType', (locator,text) => { 
+    cy.get(locator).type(text);
+ })
+
+ Cypress.Commands.add('gCheck', (locator,option) => { 
+    cy.get(locator).check(option);
+ })
+
+ Cypress.Commands.add('gSiblings', (locator) => { 
+   cy.get(locator).siblings('div');
+})
