@@ -1,0 +1,15 @@
+{
+    "msg_ex": {
+            "register":"Register",
+            "success":"Congratulations! Your new account has been successfully created!"
+    },
+    "msg_fail": {
+        "firstNameError":"First Name must be between 1 and 32 characters!",
+        "lastNameError":"Last Name must be between 1 and 32 characters!",
+        "emailError":"E-Mail Address does not appear to be valid!",
+        "telephoneError":"Telephone must be between 3 and 32 characters!",
+        "passwordError":"Password must be between 4 and 20 characters!",
+        "pasconfirmError":"Password confirmation does not match password!",
+        "privacyPolicyError":" Warning: You must agree to the Privacy Policy!"
+    }
+}
