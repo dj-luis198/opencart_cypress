@@ -33,7 +33,7 @@ describe('Registro', () => {
     })
   })
 
-  it('Registro con datos validos', () => {
+  it('Validar registro con datos validos', () => {
     registerPage.typeFirstName(firstName);
     registerPage.typeLastName(lastName);
     registerPage.typeEmail(email);

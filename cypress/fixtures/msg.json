@@ -1,7 +1,9 @@
 {
     "msg_ex": {
             "register":"Register",
-            "success":"Congratulations! Your new account has been successfully created!"
+            "success":"Congratulations! Your new account has been successfully created!",
+            "login":"Login",
+            "logo":"          Your Store\n          "
     },
     "msg_fail": {
         "firstNameError":"First Name must be between 1 and 32 characters!",
@@ -10,6 +12,7 @@
         "telephoneError":"Telephone must be between 3 and 32 characters!",
         "passwordError":"Password must be between 4 and 20 characters!",
         "pasconfirmError":"Password confirmation does not match password!",
-        "privacyPolicyError":" Warning: You must agree to the Privacy Policy!"
+        "privacyPolicyError":" Warning: You must agree to the Privacy Policy!",
+        "loginAlertError":" Warning: No match for E-Mail Address and/or Password."
     }
 }
