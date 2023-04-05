@@ -1,0 +1,23 @@
+
+[ 
+  {
+    "name":"MacBook",
+    "price":"$500.00"
+  },
+  {
+    "name":"iPhone",
+    "price":"$101.00"
+  },
+  {
+    "name":"Apple Cinema 30\"",
+    "price":"$90.00"
+  },
+  {
+    "name":"Canon EOS 5D",
+    "price":"$80.00"
+  },
+  {
+    "name":"iPod Nano",
+    "price":"$100.00"
+  }
+]

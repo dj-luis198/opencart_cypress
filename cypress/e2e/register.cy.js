@@ -48,7 +48,7 @@ describe('Registro', () => {
     });
   })
 
-  it('Validar intentar registrarse con todos loscampos vacios', () => {
+  it('Intentar registrarse con todos loscampos vacios', () => {
     registerPage.clickContinue();
     registerPage.returnPrivPolAlert().invoke('text').then(res => {
       expect(res).is.eql(dataMsg.msg_fail.privacyPolicyError)
@@ -70,7 +70,7 @@ describe('Registro', () => {
     })
   })
 
-  it('Validar intentar registrarse con password invalido', () => {
+  it('Intentar registrarse con password invalido', () => {
     let passFail=faker.random.numeric(3);
 
     registerPage.typeFirstName(firstName);
@@ -87,7 +87,7 @@ describe('Registro', () => {
     })
   })
 
-  it('Validar intentar registrarse con confirmacion de password invalido', () => {
+  it('Intentar registrarse con confirmacion de password invalido', () => {
     registerPage.typeFirstName(firstName);
     registerPage.typeLastName(lastName);
     registerPage.typeEmail(email);
@@ -102,7 +102,7 @@ describe('Registro', () => {
     })
   })
 
-  it('Validar intentar registrarse con email invalido', () => {
+  it('Intentar registrarse con email invalido', () => {
     registerPage.typeFirstName(firstName);
     registerPage.typeLastName(lastName);
     registerPage.typeEmail(lastName);
