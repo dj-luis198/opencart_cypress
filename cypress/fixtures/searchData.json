@@ -1,0 +1,15 @@
+{
+    "succss":{
+        "length3":"mac",
+        "length2":"ma",
+        "length1":"m",
+        "length4":"canon",
+        "num":"3"
+        
+    },
+    "fail":{
+        "length0":"",
+        "num":"999",
+        "symbol":"/"
+    }
+}
