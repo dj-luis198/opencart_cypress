@@ -1,15 +1,37 @@
-{
-    "succss":{
-        "length3":"mac",
-        "length2":"ma",
-        "length1":"m",
-        "length4":"canon",
-        "num":"3"
-        
+[
+    {
+        "search": "ma",
+        "positive": true,
+        "result": 6
     },
-    "fail":{
-        "length0":"",
-        "num":"999",
-        "symbol":"/"
+    {
+        "search": "mac",
+        "positive": true,
+        "result": 4
+    },
+    {
+        "search": "m",
+        "positive": true,
+        "result": 8
+    },
+    {
+        "search": "canon",
+        "positive": true,
+        "result": 1
+    },
+    {
+        "search": "3",
+        "positive": true,
+        "result": 3
+    },
+    {
+        "search": "999",
+        "positive": false,
+        "result": "Your shopping cart is empty!"
+    },
+    {
+        "search": "/",
+        "positive": false,
+        "result": "Your shopping cart is empty!"
     }
-}
+]
