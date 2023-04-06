@@ -1,0 +1,37 @@
+[
+    {
+        "search": "ma",
+        "positive": true,
+        "result": 6
+    },
+    {
+        "search": "mac",
+        "positive": true,
+        "result": 4
+    },
+    {
+        "search": "m",
+        "positive": true,
+        "result": 8
+    },
+    {
+        "search": "canon",
+        "positive": true,
+        "result": 1
+    },
+    {
+        "search": "3",
+        "positive": true,
+        "result": 3
+    },
+    {
+        "search": "999",
+        "positive": false,
+        "result": "Your shopping cart is empty!"
+    },
+    {
+        "search": "/",
+        "positive": false,
+        "result": "Your shopping cart is empty!"
+    }
+]
