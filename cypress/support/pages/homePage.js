@@ -1,5 +1,5 @@
+// <reference types="cypress" />
 export class HomePage {
-
     constructor() {
         this.myAccountDropDown = 'a[title="My Account"]';
         this.registerText = 'Register';
@@ -27,7 +27,7 @@ export class HomePage {
     }
 
     returnResultSearch(positive) {
-        if (positive === true)
+        if (positive)
             return cy.get(this.productGrid);
         else
             return cy.contains(this.emptyMessage);
