@@ -13,9 +13,10 @@ describe('This is your test project title', () => {
     beforeEach(() => {
         cy.visit('/');
     })
+
     /// casos resueltos con forEach
 
-    /*it('validar busqueda de producto convalores validos con resultados', () => {
+    /*it('validar busqueda de producto con valores validos y resultados', () => {
         dataSearch.forEach(data => {
             if (data.positive === true) {
                 homePage.searchProduct(data.search);
